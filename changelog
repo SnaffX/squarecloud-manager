@@ -1,0 +1,28 @@
+Recentemente, vejo bastante gente querendo algum bot que no final das contas, gerencie suas aplicações na Square Cloud. (utilizando a api oficial da Square Cloud). Pensando nisso, gostaria de propor uma oferta para quem quiser ajudar a comunidade & ainda receber alguma recompensa por isso.
+
+Projeto:
+Crie um bot de Discord ou Telegram que seja utilizado para gerenciar suas aplicações na Square, utilizando a API configurada em algum meio de configuração (.env ou algum json da vida).
+Funções base necessárias: iniciar, reiniciar, parar, coletar as logs e status de sua aplicação, também é desejável alguma função de 'backup'. (lembrando: tudo deve utilizar a API oficial da Square no final das contas).
+
+Requisitos obrigatórios:
+1. Deve adotar a licença MIT.
+2. Deve ser obrigatoriamente documentado, considere o seguinte pensamento: "O seu código será revisado por iniciantes em um futuro, tente ajudá-los."
+3. Deve obrigatoriamente ter as tag's: "squarecloud.app" e "squarecloud" no repositório.
+
+Apoio de SDKs é bem-vindo:
+[JavaScript SDK](<https://docs.squarecloud.app/sdks/js/client>): 
+```
+npm i @squarecloud/api
+```
+
+[Python SDK](<https://docs.squarecloud.app/sdks/py/installation>):
+```
+pip install squarecloud-api
+```
+
+Recompensa:
+Gift de um plano Pro para o desenvolvedor do projeto + um gift de um plano Pro para algum amigo desse desenvolvedor.
+> Ah, trabalho em equipe é sempre bem-vindo.
+
+Como participar?
+Envie o link público de seu repositório desse projeto (neste canal).

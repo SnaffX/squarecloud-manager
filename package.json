@@ -1,0 +1,21 @@
+{
+  "name": "squarecloud-manager",
+  "version": "1.0.0",
+  "author": "Morty",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ts-node-dev --env-file=.env src/index.ts",
+    "build": "tsc",
+    "start:prod": "node --env-file=.env dist/index.js"
+  },
+  "types": "src/index.d.ts",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@squarecloud/api": "^3.4.2",
+    "discord.js": "^14.13.0",
+    "tslib": "^2.6.2"
+  }
+}
